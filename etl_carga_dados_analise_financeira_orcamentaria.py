@@ -7,7 +7,7 @@ print("--- Iniciando Carga (LOAD) para o Banco de Dados POSTGRESQL ---")
 ARQUIVO_ORCADO = 'orcamento.csv'
 ARQUIVO_REALIZADO = 'realizado.csv'
 
-DATABASE_URL = "postgresql://postgres:MinhaSenha@db.ozbfhbvpmejygbekzmoc.supabase.co:5432/postgres"
+DATABASE_URL = "postgresql://postgres:[SUA_SENHA_AQUI]@[SEU_HOST_AQUI]/postgres"
 
 if not os.path.exists(ARQUIVO_ORCADO) or not os.path.exists(ARQUIVO_REALIZADO):
     print(f"ERRO: Arquivo '{ARQUIVO_ORCADO}' ou '{ARQUIVO_REALIZADO}' não encontrado.")
