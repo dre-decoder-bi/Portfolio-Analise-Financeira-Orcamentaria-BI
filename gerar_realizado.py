@@ -21,9 +21,9 @@ for i in range(1, QTD_TRANSACOES + 1):
     cc_id = random.choice(centros_custo_ids)
     
     # Gera um valor de transação
-    if conta_id == 5004: # Salários
+    if conta_id == 5004:
         valor_gasto = random.uniform(1500, 8000)
-    elif conta_id == 5002: # Viagens
+    elif conta_id == 5002:
         valor_gasto = random.uniform(50, 1200)
     else:
         valor_gasto = random.uniform(20, 500)
@@ -34,7 +34,7 @@ for i in range(1, QTD_TRANSACOES + 1):
         'id_centro_custo': cc_id,
         'id_conta_contabil': conta_id,
         'fornecedor': fake.company(),
-        'valor_gasto': round(valor_gasto, 2) # Arredonda para 2 casas decimais
+        'valor_gasto': round(valor_gasto, 2)
     })
 
 # 3. Cria o DataFrame e Salva em CSV
@@ -42,4 +42,5 @@ df_realizado = pd.DataFrame(dados_realizado)
 df_realizado.to_csv('realizado.csv', index=False, sep=';', encoding='utf-8-sig')
 
 print(f"SUCESSO: Arquivo 'realizado.csv' gerado com {len(df_realizado)} linhas.")
+
 print(df_realizado.head())
