@@ -16,7 +16,7 @@ Comparar os valores orçados com os gastos reais de uma empresa fictícia, ident
 ## 📊 Dashboard Interativo
 
 ## 📜 Print da tela do Dashboard
-([Capa Dashboard Financeiro](analise_financeira_orcamentaria_capa.png))
+![Capa Dashboard Financeiro](analise_financeira_orcamentaria_capa.png)
 
 ## 🔗 Link do Dashboard Interativo
 ([Demo Dashboard Financeiro](https://youtu.be/M5WMPgp4BPY))
