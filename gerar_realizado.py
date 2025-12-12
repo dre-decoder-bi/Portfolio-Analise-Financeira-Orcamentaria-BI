@@ -30,7 +30,7 @@ for i in range(1, QTD_TRANSACOES + 1):
         
     dados_realizado.append({
         'id_transacao': 10000 + i,
-        'data_transacao': fake.date_between(start_date='-1y', end_date='today'), # Transações do último ano
+        'data_transacao': fake.date_between(start_date='-1y', end_date='today'),
         'id_centro_custo': cc_id,
         'id_conta_contabil': conta_id,
         'fornecedor': fake.company(),
@@ -44,3 +44,4 @@ df_realizado.to_csv('realizado.csv', index=False, sep=';', encoding='utf-8-sig')
 print(f"SUCESSO: Arquivo 'realizado.csv' gerado com {len(df_realizado)} linhas.")
 
 print(df_realizado.head())
+
