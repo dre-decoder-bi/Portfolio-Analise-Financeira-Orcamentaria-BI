@@ -30,7 +30,6 @@ dados_orcamento = []
 for cc_id, cc_nome in centros_custo.items():
     for conta_id, conta_nome in contas_contabeis.items():
         for mes in meses:
-            # Lógica simples para obter valores diferentes
             if conta_nome == 'Salários e Encargos':
                 valor_orcado = random.randint(50000, 80000)
             elif conta_nome == 'Viagens e Deslocamento':
@@ -54,4 +53,5 @@ df_orcamento = pd.DataFrame(dados_orcamento)
 df_orcamento.to_csv('orcamento.csv', index=False, sep=';', encoding='utf-8-sig')
 
 print(f"SUCESSO: Arquivo 'orcamento.csv' gerado com {len(df_orcamento)} linhas.")
+
 print(df_orcamento.head())
