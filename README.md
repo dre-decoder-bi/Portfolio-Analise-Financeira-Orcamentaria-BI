@@ -1,6 +1,6 @@
 # Análise de Variância Orçamentária (Orçado vs. Realizado)
 
-Projeto de Business Intelligence que simula uma análise financeira completa, desde a criação dos dados até o dashboard.
+Projeto de Business Intelligence que simula uma análise financeira e orçamentária identificando os principais desvios (variâncias) por Centro de Custo e Conta Contábil.
 
 ## 🎯 Objetivo
 
