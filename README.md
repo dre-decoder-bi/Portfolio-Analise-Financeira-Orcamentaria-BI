@@ -23,8 +23,8 @@ Comparar os valores orçados com os gastos reais de uma empresa fictícia, ident
 
 ## 🔧 Ferramentas Utilizadas
 
-* **Linguagens:** Python (Pandas, Faker, SQLAlchemy, Psycopg2) e SQL (PostgreSQL)
-* **Banco de Dados:** Supabase
+* **Linguagens:** Python (Pandas, Faker, SQLAlchemy, Psycopg2) e SQL
+* **Banco de Dados:** PostegreSQL (Supabase)
 * **BI:** Power BI Desktop & Power BI Service (Dataflows)
 
 ---
